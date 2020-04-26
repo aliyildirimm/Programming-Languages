@@ -2,8 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "aliyildirim-ex1.h"
-extern int lineNo;
-int currentLineNo = 0;
+
 void yyerror (const char *s){ printf("ERROR\n"); }
 
 //needed for defining scope starts
